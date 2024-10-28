@@ -10,7 +10,7 @@ draft: false
 
 # Cloud Next
 
-[Cloud Next](https://cloudnext-app.tecg/) es una aplicación web para subir archivos a la nube. Se utilizó [Convex](https://docs.convex.dev/home) como BaaS, [Clerk](https://www.convex.dev/) para la autenticación y [NextJS](https://nextjs.org/) como framework de React.
+[Cloud Next](https://cloudnext-app.tech/) es una aplicación web para subir archivos a la nube. Se utilizó [Convex](https://docs.convex.dev/home) como BaaS, [Clerk](https://www.convex.dev/) para la autenticación y [NextJS](https://nextjs.org/) como framework de React.
 
 Esta aplicación permite a los usuarios subir archivos a la nube, ver los archivos subidos, descargar los archivos subidos y eliminar los archivos subidos y  marcar archivos como favoritos. Los usuarios pueden registrarse utilizando su cuenta de google o con credenciales creadas y Clerk se encargar de enviar correos de validación.
 
