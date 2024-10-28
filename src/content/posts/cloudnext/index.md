@@ -1,7 +1,7 @@
 ---
 title: Cloud Next
 published: 2024-10-27
-description: 'Aplicación web subir archivos a la nube.'
+description: 'Aplicación web para subir archivos a la nube.'
 image: './cover.png'
 tags: [NextJS, React, TailwindCSS, Convex, Clerk]
 category: 'Proyecto'
