@@ -1,4 +1,5 @@
 {
+  "cSpell.language": "en,es",
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "biomejs.biome",
   "[javascript]": {

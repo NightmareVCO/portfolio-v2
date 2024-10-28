@@ -1,9 +1,8 @@
 # About
-This is the demo site for [Fuwari](https://github.com/saicaca/fuwari).
+Me llamo Vladimir Curiel, pero mis amigos me llaman Vladi. Mi primera experiencia con la programación fue en el lenguaje C, tenía 17 años. Desde entonces, he evolucionado y he liderado grupos de desarrollo a nivel universitario.
 
-::github{repo="saicaca/fuwari"}
+En la universidad formo parte del comité de la carrera de Ingeniería en Ciencias de la Computación, donde he tenido la oportunidad de organizar eventos y talleres de programación. Ingresé como miembro y actualmente soy presidente del comité. Del mismo modo, también he participado en competencias de programación ICPC.
 
-> ### Sources of images used in this site
-> - [Unsplash](https://unsplash.com/)
-> - [星と少女](https://www.pixiv.net/artworks/108916539) by [Stella](https://www.pixiv.net/users/93273965)
-> - [Rabbit - v1.4 Showcase](https://civitai.com/posts/586908) by [Rabbit_YourMajesty](https://civitai.com/user/Rabbit_YourMajesty)
+En mi tiempo libre me gusta aprender y jugar videojuegos, por lo que en mis inicios en la programación desarrollé diversos videojuegos a nivel de consola para entender los conceptos básicos de la programación. Me mantengo al tanto de las nuevas tecnologías e incluso de las polémicas que se generan en la comunidad de desarrollo.
+
+::github{repo="nightmareVCO/portfolio-v2"}
