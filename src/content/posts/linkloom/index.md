@@ -3,7 +3,7 @@ title: Linkloom Url Shortener
 published: 2024-04-15
 description: 'Aplicación web para acortar urls, generar códigos QR, capturar estadísticas y demás.'
 image: './cover.png'
-tags: [Java, Javalin, HTML, JS, NextJS, React, TailwindCSS, MongoDB]
+tags: [Java, Javalin, HTML, JS, NextJS, React, TailwindCSS, MongoDB, NextAuth]
 category: 'Proyecto'
 draft: false
 ---
