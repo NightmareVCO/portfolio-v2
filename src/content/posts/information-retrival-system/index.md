@@ -3,7 +3,7 @@ title: Sistema de recuperación de información
 published: 2024-08-01
 description: 'Sistema de recuperación de información utilizando procesamiento de lenguaje natural.'
 image: './cover.png'
-tags: [Python, Streamlit, NLTK, Spacy, Scikit-learn, Pandas, Numpy]
+tags: [Python, NLP, Streamlit, NLTK, Spacy, Scikit-learn, Pandas, Numpy]
 category: 'Proyecto'
 draft: false
 ---
