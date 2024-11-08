@@ -7,7 +7,7 @@ import type {
 import { LinkPreset } from './types/config'
 
 export const siteConfig: SiteConfig = {
-  title: 'Protfolio de Vladimir Curiel - Ing Ciencias de la Computación, Desarrollador y Programador Web',
+  title: 'Portfolio de Vladimir Curiel - Ing Ciencias de la Computación, Desarrollador y Programador Web',
   subtitle: 'Contrata a Vladimir para crear tu aplicacion web. Desarrollador Web. Especializado en crar aplicaciones únicas.',
   lang: 'es',         // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko'
   themeColor: {
