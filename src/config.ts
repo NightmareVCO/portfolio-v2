@@ -8,7 +8,7 @@ import { LinkPreset } from './types/config'
 
 export const siteConfig: SiteConfig = {
   title: 'Portfolio de Vladimir Curiel - Ing Ciencias de la Computación, Desarrollador y Programador Web',
-  subtitle: 'Contrata a Vladimir para crear tu aplicacion web. Desarrollador Web. Especializado en crar aplicaciones únicas.',
+  subtitle: 'Contrata a Vladimir para crear tu aplicación web. Desarrollador Web. Especializado en crear aplicaciones únicas.',
   lang: 'es',         // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko'
   themeColor: {
     hue: 305,         // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
@@ -49,7 +49,7 @@ export const navBarConfig: NavBarConfig = {
 export const profileConfig: ProfileConfig = {
   avatar: 'assets/images/vladimircuriel.png',  // Relative to the /src directory. Relative to the /public directory if it starts with '/'
   name: 'Vladimir Curiel',
-  bio: 'Estudiante Ing. Ciencias de la computación. Enfocado en el desarrollo de apliaciones Web. De Santiago, República Dominicana. Centrado en crear aplicaciones únicas.',
+  bio: 'Estudiante Ing. Ciencias de la computación. Enfocado en el desarrollo de aplicaciones Web. De Santiago, República Dominicana. Centrado en crear aplicaciones únicas.',
   links: [
     {
       name: 'LinkedIn',
