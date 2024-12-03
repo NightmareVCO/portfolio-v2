@@ -13,6 +13,12 @@ draft: false
 [Pisano Zona Franca](https://pisanozf.netlify.app/). El Parque Industrial Santiago Norte (PISANO) fundado en el año 1989, es un proyecto privado, compuesto por una Zona Franca de Exportación y una Zona Industrial Nacional. Provee mecanismos de exportación para la manufactura y ensamblaje de productos y servicios.
 
 Es una reconstrucción de la página web de la empresa Pisano Zona Franca, la cual fue creada en [Wix](https://pisanozf.com). Utilizando la nueva linea gráfica de la empresa
+
+## Listado de tecnologías
+
+- [Astro](https://astro.build/)
+- [TailwindCSS](https://tailwindcss.com/)
+
 ### Repositorio de GitHub
 
 ::github{repo="nightmareVCO/pisanozf"}
