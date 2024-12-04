@@ -1,7 +1,7 @@
 ---
 title: Neo Pokédex
 published: 2024-12-03
-description: 'Aplicación móvil creada en Flutter para ver información de los pokemones consumiendo la API GraphQL.'
+description: 'Aplicación móvil creada en Flutter para ver información de los pokemones consumiendo la PokeAPI con GraphQL.'
 image: './cover.png'
 tags: [Flutter, GraphQL]
 category: 'Proyecto'
@@ -67,6 +67,8 @@ El diseño de la app será atractivo y visualmente agradable, con elementos grá
 ## Listado de tecnologías
 
 - [Flutter](https://flutter.dev/)
+- [Dart](https://dart.dev/)
+- [PokeAPI](https://pokeapi.co/)
 - [GraphQL](https://graphql.org/)
 - [Hive](https://hivedb.dev/)
 
