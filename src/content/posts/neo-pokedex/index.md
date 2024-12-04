@@ -10,7 +10,7 @@ draft: false
 
 # Neo Pokédex
 
-Neo Pokédex es una aplicación móvil creada en Flutter para ver información de los pokemones consumiendo la API GraphQL. La aplicación cuenta con las siguientes funcionalidades:
+Neo Pokédex es una aplicación móvil creada en Flutter para ver información de los pokemones consumiendo la PokeAPI con GraphQL. La aplicación cuenta con las siguientes funcionalidades:
 
 ## Detalles de la aplicación
 
