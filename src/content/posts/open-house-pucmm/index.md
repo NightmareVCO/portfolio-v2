@@ -36,5 +36,5 @@ Toda la aplicación se encuentra dockerizada, permitiendo una fácil instalació
 
 ## Repositorio de GitHub
 
-::github{repo="nightmareVCO/cicc-webpage"}
+::github{repo="nightmareVCO/OpenHouse"}
 
