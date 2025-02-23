@@ -24,6 +24,8 @@ Esta aplicación permite que los usuarios autentificados como no, puedan acortar
 
 Para manejar la información de los usuarios y las urls acortadas, se utiliza una base de datos NoSQL [MongoDB](https://www.mongodb.com/). Los usuarios cuentan con roles que les permiten realizar ciertas acciones, como administrar las urls acortadas, ver las estadísticas, etc. Asi mismo, se utilizan Service Workers nativos de JavaScript para manejar la cache de la aplicación y poder ver las urls offline.
 
+Este proyecto fue realizado en conjunto con [Natasha López](https://github.com/Natashalopez05).
+
 ### Demo de la aplicación
 
 <iframe width='100%' height="500" src="https://www.youtube.com/embed/9UcXEd4CA6c?si=PB2qrVjmSlLCCLI9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
