@@ -8,19 +8,63 @@ category: 'Proyecto'
 draft: false
 ---
 
-# Dashboard Interactivo de The Quiz Challenge
+# Dashboard Interactivo – The Quiz Challenge
 
-Es un [dashboard interactivo](https://public.tableau.com/app/profile/vladimir.curiel/viz/TheQuizChallenge-YouTubeChannel/Vistas-Pgina1) de minería de datos con modelo descriptivo en clusters. El dashboard fue desarrollado en Tableau y el modelo descriptivo en clusters fue desarrollado en Python con Jupyter Notebook. El modelo descriptivo en clusters fue desarrollado con la librería Scikit-Learn y NLTK.
-
-El objetivo de este proyecto es analizar y visualizar los datos del canal de The Quiz Challenge, para identificar patrones y tendencias en los datos. El dashboard interactivo permite a los usuarios explorar los datos y obtener información relevante sobre el canal. El modelo descriptivo en clusters permite identificar grupos de videos similares en el canal, basados en el contenido y las etiquetas de los videos.
+[Dashboard Interactivo de The Quiz Challenge](https://public.tableau.com/app/profile/vladimir.curiel/viz/TheQuizChallenge-YouTubeChannel/Vistas-Pgina1) es una solución de minería de datos descriptiva que combina un modelo de clustering con un portal visual en Tableau. El objetivo es ayudar al canal de YouTube “The Quiz Challenge” a descubrir patrones en sus métricas (vistas, suscripciones, comentarios, likes/dislikes) y tomar decisiones informadas sobre qué tipo de contenido producir.
 
 ## Detalles del proyecto
 
-Este proyecto consiste en el desarrollo de un dashboard interactivo de minería de datos con modelo descriptivo en clusters. El dashboard fue desarrollado en Tableau y el modelo descriptivo en clusters fue desarrollado en Python con Jupyter Notebook. El modelo descriptivo en clusters fue desarrollado con la librería Scikit-Learn y NLTK.
+- **Fuente de datos**  
+  - Conjunto original de estadísticas de YouTube (vistas, suscriptores, comentarios, likes/dislikes) agrupado en carpetas por parámetro.  
+  - Exploración de fuentes externas de métricas de canales de YouTube para enriquecer el dataset (p.ej. demografía de audiencia, keywords trending)
 
-El dashboard interactivo permite a los usuarios explorar los datos del canal de The Quiz Challenge y obtener información relevante sobre el canal. El dashboard incluye visualizaciones interactivas de las vistas, suscripciones, comentarios, likes y dislikes de los videos del canal. El dashboard también incluye visualizaciones de la duración, categoría, cuartil y grupo horario de los videos del canal.
+- **Dashboard en Tableau**  
+  - Preparación y transformación de datos en Tableau Prep (unión de fuentes, limpieza de valores faltantes, creación de campos calculados para cuartiles de vistas y grupos horarios).  
+  - Visualizaciones interactivas:  
+    - Líneas de tiempo de vistas y suscripciones.  
+    - Histogramas de duración y distribución por categoría.  
+    - Filtros por cuartil de vistas, grupo horario y cluster asignado.  
+    - Panel de detalle por video con métricas y etiquetas.  
+  - Publicación en Tableau Public con enlace público para stakeholders.
 
-El modelo descriptivo en clusters permite identificar grupos de videos similares en el canal, basados en el contenido y las etiquetas de los videos. El modelo utiliza técnicas de procesamiento de lenguaje natural para analizar el contenido y las etiquetas de los videos y agruparlos en clusters. Los clusters identificados por el modelo permiten identificar patrones y tendencias en los videos del canal.
+- **Modelo descriptivo en clusters**  
+  - **Entorno**: Python 3 en Jupyter Notebook.  
+  - **Preprocesamiento**: tokenización de títulos y descripciones con NLTK, limpieza de stopwords y lematización.  
+  - **Vectorización**: TF-IDF para contenido textual y normalización de métricas numéricas (vistas, likes/dislikes, duración).  
+  - **Algoritmo**: K-Means (selección de k basada en curva de codo y coeficiente de silhouette) y DBSCAN como verificación de densidad.  
+  - **Evaluación**: Silhouette Score, Davies–Bouldin Index y análisis de cohesión vs. separación para validar calidad de clusters.  
+  - **Interpretación**: asignación de etiquetas descriptivas a cada cluster (p.ej. “videos cortos de trivia”, “quizzes extensos de temática X”) para guiar la estrategia de contenido.
+
+## Tecnologías utilizadas
+
+- **Visualización:** Tableau Desktop & Tableau Public  
+- **Análisis & Modelado:**  
+  - Python 3  
+  - Jupyter Notebook  
+  - Pandas, NumPy  
+  - Scikit-Learn (K-Means, DBSCAN, métricas de clustering)  
+  - NLTK (tokenización, lematización, stopwords)  
+- **Documentación:** Markdown en `README.md` describiendo flujo de ETL, decisiones de modelado y hallazgos.
+
+## Desarrollo del proyecto
+
+1. **Exploración de datos**  
+   - Carga de CSVs originales y revisión de calidad de datos.  
+   - Identificación de métricas faltantes y normalización de formatos de fecha.
+
+2. **Preparación y ETL en Tableau Prep**  
+   - Unión de fuentes, limpieza y creación de campos (cuartiles, grupos horarios).  
+   - Exportación de extractos `.hyper` para conexión en Tableau Desktop.
+
+3. **Modelado en Jupyter Notebook**  
+   - Preprocesamiento de texto con NLTK y vectorización TF-IDF.  
+   - Ejecución de K-Means y análisis de métricas para elegir k.  
+   - Visualización de clusters en 2D con PCA para ver separabilidad.
+
+4. **Creación del dashboard**  
+   - Conexión a los datos modelados (incluyendo etiqueta de cluster) en Tableau Desktop.  
+   - Diseño de hojas y dashboard final con acciones de filtro y resaltado.  
+   - Publicación en Tableau Public para acceso público, con credenciales de visualización.
 
 El proyecto fue desarrollado en conjunto con [Natasha López](https://github.com/Natashalopez05).
 
