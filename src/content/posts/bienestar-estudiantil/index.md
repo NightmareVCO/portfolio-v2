@@ -17,32 +17,32 @@ draft: false
 
 - Diseñar y desarrollar una web que muestre servicios, beneficios, grupos estudiantiles y sus actividades.  
 - Integrar una plataforma de gestión de contenido (BackOffice) para publicar y editar eventos directamente desde un CMS.  
-- Documentar el proyecto para futuros mantenimientos y garantizar un entorno de producción seguro y controlado Informe del Proyecto del Decanato de Estudiantes, Bienestar Estudiantil
+- Documentar el proyecto para futuros mantenimientos y garantizar un entorno de producción seguro y controlado
 
 ## Funcionalidades clave
 
 - **Exploración de grupos estudiantiles**  
-  Navega entre asociaciones, clubes y comités (arte y cultura, deportes, religiosas, etc.) mediante rutas dinámicas y sliders de imágenes que destacan su misión, visión y valores Informe del Proyecto del Decanato de Estudiantes, Bienestar Estudiantil
+  Navega entre asociaciones, clubes y comités (arte y cultura, deportes, religiosas, etc.) mediante rutas dinámicas y sliders de imágenes que destacan su misión, visión y valores
 
 - **Gestión de eventos**  
-  Visualiza todas las actividades por grupo, con título, fecha e imagen destacada, y filtra por campus o página mediante paginación Informe del Proyecto del Decanato de Estudiantes, Bienestar Estudiantil
+  Visualiza todas las actividades por grupo, con título, fecha e imagen destacada, y filtra por campus o página mediante paginación
 
 - **Integración de noticias y multimedia**  
-  - Noticias en tiempo real extraídas mediante REST API desde el sitio de Prensa PUCMM Informe del Proyecto del Decanato de Estudiantes, Bienestar Estudiantil  
-  - Videos integrados mediante RSS desde la lista de reproducción de PUCMM TV en YouTube Informe del Proyecto del Decanato de Estudiantes, Bienestar Estudiantil
+  - Noticias en tiempo real extraídas mediante REST API desde el sitio de Prensa PUCMM  
+  - Videos integrados mediante RSS desde la lista de reproducción de PUCMM TV en YouTube
 
 - **BackOffice con WordPress**  
   - Consumo directo de la REST API para crear, editar y eliminar entradas de actividades.  
-  - Panel de administración de categorías y gestión de eventos integrado en WordPress Informe del Proyecto del Decanato de Estudiantes, Bienestar Estudiantil
+  - Panel de administración de categorías y gestión de eventos integrado en WordPress
 
 ## Seguridad y extensiones personalizadas
 
 Para asegurar que solo peticiones fiables accedan al CMS, se desarrollaron dos plugins personalizados en PHP:
 
 1. **Restricción de orígenes y autenticación**  
-   Solo se aceptan peticiones desde el dominio autorizado, usando contraseñas de aplicación Informe del Proyecto del Decanato de Estudiantes, Bienestar Estudiantil  
+   Solo se aceptan peticiones desde el dominio autorizado, usando contraseñas de aplicación  
 2. **Ocultamiento de la página pública de WordPress**  
-   Impide la exploración directa del sitio WordPress, exponiendo únicamente la interfaz Astro/React Informe del Proyecto del Decanato de Estudiantes, Bienestar Estudiantil
+   Impide la exploración directa del sitio WordPress, exponiendo únicamente la interfaz Astro/React
 
 ## Tecnologías utilizadas
 
@@ -64,7 +64,7 @@ Para asegurar que solo peticiones fiables accedan al CMS, se desarrollaron dos p
 5. **Feeds RSS y REST**: configuración de lectura automática y mapeo de datos en Astro/React.  
 6. **Despliegue**: hosting en entorno estático, garantizando alta disponibilidad y seguridad.
 
-**Supervisión:** Ing. Freddy Peña, Escuela de Ingeniería en Computación y Telecomunicaciones, PUCMM.
+**Supervisión:** Ing. [Freddy Peña](https://www.linkedin.com/in/fred-pena/?locale=es_ES), Escuela de Ingeniería en Computación y Telecomunicaciones, PUCMM.
 
 ## Repositorio de GitHub
 
